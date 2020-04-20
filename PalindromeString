@@ -9,7 +9,6 @@ public class PalindromeString {
         
         Scanner sc=new Scanner(System.in);
         String A=sc.next();
-        /* Enter your code here. Print output to STDOUT. */
         int length = A.length();   
       for ( int i = length - 1; i >= 0; i-- )  
          reverse = reverse + A.charAt(i);  
